@@ -28,12 +28,12 @@
     // DB connection info
     //TODO: Update the values for $host, $user, $pwd, and $db
     //using the values you retrieved earlier from the portal.
-    //mysql -h us-cdbr-azure-east-c.cloudapp.net 
-	//      -u b1940b0ab2fced -p181f99d6 -DannatostesSQLdb
-    $host = "us-cdbr-azure-east-c.cloudapp.net";
-    $user = "b1940b0ab2fced";
-    $pwd = "181f99d6";
-    $db = "annatostesSQLdb";
+	//Database=nuvemwoAxTH9bDmK;Data Source=br-cdbr-azure-south-a.cloudapp.net;User Id=bc45853ca2d1a6;Password=c43a9608
+    //mysql -h br-cdbr-azure-south-a.cloudapp.net -u bc45853ca2d1a6 -pc43a9608 -DnuvemwoAxTH9bDmK
+    $host = "br-cdbr-azure-south-a.cloudapp.net";
+    $user = "bc45853ca2d1a6";
+    $pwd = "c43a9608";
+    $db = "nuvemwoAxTH9bDmK";
     // Connect to database.
     try {
         $conn = new PDO( "mysql:host=$host;dbname=$db", $user, $pwd);
